@@ -1,4 +1,4 @@
-NAME = attack
+NAME = Violence
 
 SRC = src/main.cpp \
 	src/HumanA.cpp \
