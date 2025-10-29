@@ -7,9 +7,9 @@
 class HumanB {
     private:
         std::string name;
+        Weapon *weapon;
         bool has_weapon;
     public:
-        Weapon *weapon;
         HumanB(std::string name);
         ~HumanB();
         void setWeapon(Weapon &weapon);
