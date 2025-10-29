@@ -11,7 +11,7 @@ int main(int ac, char **av) {
         std::string str;
         std::string target_substr = av[2];
         std::string replacement = av[3];
-        std::ofstream new_file("new_file.txt");
+        std::ofstream new_file((std::string)av[1] + ".replace");
         std::fstream file(av[1]);
         std::size_t position;
 
