@@ -1,4 +1,4 @@
-NAME = Zombie
+NAME = Zombies
 
 SRC = src/main.cpp \
 	src/Zombie.cpp \
