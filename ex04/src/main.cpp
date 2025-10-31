@@ -16,10 +16,11 @@ int main(int ac, char **av) {
         std::size_t position;
 
         while (std::getline(file, str)) {
-            position = str.find(target_substr);
-            if (position != std::string::npos) {
-                str.erase(position, target_substr.length());
-                str.insert(position, replacement);
+            while ((position = str.find(target_substr)) != std::string::npos) {
+                if (position != std::string::npos) {
+                    str.erase(position, target_substr.length());
+                    str.insert(position, replacement);
+                }
             }
             new_file << str << std::endl;
         }
