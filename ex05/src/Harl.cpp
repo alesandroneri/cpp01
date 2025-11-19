@@ -2,11 +2,9 @@
 #include <iostream>
 
 Harl::Harl() {
-    return ;
 }
 
 Harl::~Harl() {
-    return;
 }
 
 void Harl::debug( void ) {
