@@ -5,11 +5,11 @@
 
 class Zombie {
     private:
-        std::string name;
+        std::string _name;
     public:
         Zombie();
         ~Zombie();
-        void setName(std::string name);
+        void setName(const std::string &name);
         void announce(void);
 };
 
