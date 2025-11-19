@@ -1,4 +1,4 @@
-NAME = program
+NAME = harl
 
 SRCS = src/main.cpp \
 	src/Harl.cpp
